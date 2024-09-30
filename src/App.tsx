@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      <HeroBanner/>
+      <div className="px-[80px]">
+        <HeroBanner/>
+      </div>
     </>
   )
 }

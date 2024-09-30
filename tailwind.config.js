@@ -10,7 +10,8 @@ export default {
         'light-green': '#c0f497',
         'darker-green': '#36463D',
         'dark-green': '#28A263',
-        'medium-green': '#2DDB81'
+        'medium-green': '#2DDB81',
+        'brand-grey': '#808080'
       }
     },
   },

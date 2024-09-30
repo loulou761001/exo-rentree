@@ -8,10 +8,12 @@ function App() {
 
   return (
     <>
-      <NavBar />
-      <HeroBanner/>
-      <Features />
-      <Commentary />
+      <div className="px-[80px]">
+        <NavBar/>
+        <HeroBanner/>
+        <Features/>
+        <Commentary />
+      </div>
     </>
   )
 }

@@ -12,6 +12,7 @@ export default {
         'dark-green': '#28A263',
         'medium-green': '#2DDB81',
         'brand-white': "#F7F7F7",
+        'brand-grey': '#808080'
       },
     },
   },

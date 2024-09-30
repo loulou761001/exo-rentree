@@ -2,7 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "KyivType";
+  src: url("./assets/fonts/Dmitry Rastvortsev - KyivType Sans Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KyivType";
+  src: url("./assets/fonts/Dmitry Rastvortsev - KyivType Sans Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KyivType";
+  src: url("./assets/fonts/Dmitry Rastvortsev - KyivType Sans Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KyivType";
+  src: url("./assets/fonts/Dmitry Rastvortsev - KyivType Sans Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KyivType";
+  src: url("./assets/fonts/Dmitry Rastvortsev - KyivType Sans Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KyivType";
+  src: url("./assets/fonts/Dmitry Rastvortsev - KyivType Sans Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Add more font-face rules for other styles if needed */
+
+.KyivType {
+  font-family: "KyivType", sans-serif;
+}
+
 body {
   background-color: black;
   color: #f7f7f7;
+}
+
+*,
+body,
+button,
+p,
+span {
+  font-family: "Inter", sans-serif;
 }

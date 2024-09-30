@@ -35,7 +35,7 @@ const Features: React.FC = () => {
             </div>
 
             {/* Conteneur scrollable */}
-            <div ref={scrollRef} className="flex overflow-x-scroll space-x-4 scrollbar-hide">
+            <div ref={scrollRef} className="flex overflow-x-scroll overflow-y-hidden space-x-4 scrollbar-hide">
                 <Card theme="black" img="circle.png" title="Product title" subTitle="Short description goes here" />
                 <Card theme="white" img="diagramme.png" title="Product title" subTitle="Short description goes here" />
                 <Card theme="black" img="camembert.png" title="Product title" subTitle="Short description goes here" />

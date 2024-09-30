@@ -1,4 +1,3 @@
-import star from '../../assets/svg/star.svg'
 import gear from '../../assets/svg/gear.svg'
 import graph from '../../assets/svg/graph.svg'
 import reel from '../../assets/svg/reel.svg'
@@ -9,7 +8,7 @@ import {Ratings} from "./ui/Ratings.tsx";
 
 export const HeroBanner = () => {
   return (
-    <section className="flex justify-between mt-16">
+    <section className="flex justify-between mt-16 mb-16">
       <div className="w-6/12 flex flex-col gap-6 mt-16">
         <Ratings/>
         <h1 className="text-[72px] leading-[72px] font-bold">Seamless solution with our magic!</h1>

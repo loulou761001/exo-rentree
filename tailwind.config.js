@@ -14,8 +14,9 @@ export default {
         'brand-white': "#F7F7F7",
         'brand-grey': '#808080',
         'brand-black': '#1B1B1B'
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
 

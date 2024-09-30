@@ -9,10 +9,10 @@ import {Ratings} from "./ui/Ratings.tsx";
 
 export const HeroBanner = () => {
   return (
-    <section className="flex justify-between">
-      <div className="w-6/12">
+    <section className="flex justify-between mt-16">
+      <div className="w-6/12 flex flex-col gap-6 mt-16">
         <Ratings/>
-        <h1 className="text-[72px] font-bold">Seamless solution with our magic!</h1>
+        <h1 className="text-[72px] leading-[72px] font-bold">Seamless solution with our magic!</h1>
         <p>
           UIFry is the project management platform that aims for teams to achieve
           an efficient dream management

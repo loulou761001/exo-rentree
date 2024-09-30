@@ -8,7 +8,7 @@ export const HeroBanner = () => {
       <img src={star as string} alt="full star"/>
       <img src={star as string} alt="full star"/>
       <img src={star as string} alt="full star"/>
-      <span className="text-gray-brand-grey">Based on 10,000+ reviews</span>
+      <span className="text-brand-grey">Based on <span className="text-brand-white">10,000+</span> reviews</span>
     </div>
   </section>
 }

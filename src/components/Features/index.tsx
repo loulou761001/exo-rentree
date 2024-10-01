@@ -27,7 +27,7 @@ const Features: React.FC = () => {
 
 
     return (
-        <div className="w-full py-16 px-8 bg-gradient-to-r from-gray-900 to-black text-white">
+        <div className="w-full py-16  bg-gradient-to-r from-gray-900 to-black text-white px-[80px]">
             {/* Titre et bouton */}
             <div className="flex items-center justify-between mb-8">
                 <h2 className="text-3xl font-bold">Choose from over 10+ cutting-edge products</h2>

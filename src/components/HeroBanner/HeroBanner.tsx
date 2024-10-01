@@ -8,7 +8,7 @@ import {Ratings} from "./ui/Ratings.tsx";
 
 export const HeroBanner = () => {
   return (
-    <section className="flex justify-between mt-16 mb-16">
+    <section className="flex justify-between mt-16 mb-16 px-[80px]">
       <div className="w-6/12 flex flex-col gap-6 mt-16">
         <Ratings/>
         <h1 className="text-[72px] leading-[72px] font-bold KyivType">Seamless solution with our magic!</h1>

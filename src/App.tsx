@@ -8,12 +8,12 @@ function App() {
 
   return (
     <>
-      <div className="px-[80px]">
+      {/* <div className="px-[80px]"> */}
         <NavBar/>
         <HeroBanner/>
         <Features/>
         <Commentary />
-      </div>
+      {/* </div> */}
     </>
   )
 }

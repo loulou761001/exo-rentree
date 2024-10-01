@@ -3,7 +3,7 @@ import CommentaryCard from './Card';
 
 const Commentary: React.FC = () => {
     return (
-        <div className="w-full py-16 px-8 bg-gradient-to-r from-gray-900 to-black text-white">
+        <div className="w-full py-16 px-[80px] bg-gradient-to-r from-gray-900 to-black text-white">
             {/* Section Titre et Bouton */}
             <div className="flex justify-between items-center mb-8">
                 <div>
